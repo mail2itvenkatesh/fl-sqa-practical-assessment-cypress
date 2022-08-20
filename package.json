@@ -1,0 +1,28 @@
+{
+  "name": "fl-sqa-practical-assessment",
+  "version": "1.0.0",
+  "description": "Test Framework to validate https://www.founderandlightning.com/ website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "junit-report-merger": "jrm ./cypress/reports/mergedreport.xml ./cypress/reports/junit/*.xml",
+    "delete:reportFolder": "rmdir /Q /S mochawesome-report",
+    "merge:reports": "mochawesome-merge cypress/reports/mocha/*.json > cypress-combined-report.json",
+    "create:html:report": "npm run merge:reports && marge --reportDir htmlreport cypress-combined-report.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0",
+    "cypress-grep": "^3.0.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "cypress-multi-reporters": "^1.6.1",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "junit-report-merger": "^4.0.0",
+    "mocha": "^10.0.0",
+    "mocha-junit-reporter": "^2.0.2"
+  }
+}

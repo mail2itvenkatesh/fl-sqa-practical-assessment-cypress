@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="4" skipped="0">
+  <testsuite name="Root Suite" timestamp="2022-08-20T15:11:34" tests="0" file="cypress\e2e\contact-page.spec.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Contact Page Features Validation" timestamp="2022-08-20T15:11:34" tests="4" time="46.3950" failures="0">
+    <testcase name="Contact Page Features Validation ContactPage - Verify whether user is in Contact Page and validate title" time="6.3580" classname="ContactPage - Verify whether user is in Contact Page and validate title"/>
+    <testcase name="Contact Page Features Validation ContactPage - Verify static or dynamic elements availability" time="0.2830" classname="ContactPage - Verify static or dynamic elements availability"/>
+    <testcase name="Contact Page Features Validation ContactPage - No information is passed and check for required field validation" time="5.1540" classname="ContactPage - No information is passed and check for required field validation"/>
+    <testcase name="Contact Page Features Validation Contact Page - Fill Form with valid Details and Send Message" time="32.2300" classname="Contact Page - Fill Form with valid Details and Send Message"/>
+  </testsuite>
+</testsuites>

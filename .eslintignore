@@ -1,0 +1,5 @@
+; cannot parse static properties in JavaScript class
+; Parsing error: Unexpected token =
+
+; cannot parse JSX
+; Parsing error: Unexpected token <
